@@ -8,7 +8,19 @@
     "level": "Beginner",
     "description": "Learn HTML, CSS, JavaScript, React, Node.js, and MongoDB from scratch.",
     "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
-    "category": "Development"
+    "category": "Development",
+    "curriculum": [
+      "HTML Basics",
+      "CSS & Flexbox",
+      "JavaScript Fundamentals",
+      "ES6+ Features",
+      "DOM Manipulation",
+      "React Basics",
+      "React Hooks",
+      "Node.js & Express",
+      "REST APIs",
+      "MongoDB & Mongoose"
+    ]
   },
   {
     "id": 2,
@@ -19,7 +31,19 @@
     "level": "Beginner",
     "description": "Master user interface and user experience design using Figma.",
     "image": "https://images.unsplash.com/photo-1558655146-9f40138edfeb",
-    "category": "Design"
+    "category": "Design",
+    "curriculum": [
+      "Design Thinking",
+      "User Research",
+      "Wireframing",
+      "User Flows",
+      "Figma Basics",
+      "Components & Auto Layout",
+      "Prototyping",
+      "Micro-interactions",
+      "Usability Testing",
+      "Developer Handoff"
+    ]
   },
   {
     "id": 3,
@@ -30,7 +54,19 @@
     "level": "Intermediate",
     "description": "Learn SEO, social media marketing, and paid advertising strategies.",
     "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
-    "category": "Marketing"
+    "category": "Marketing",
+    "curriculum": [
+      "Marketing Fundamentals",
+      "Buyer Personas",
+      "Keyword Research",
+      "On-Page SEO",
+      "Link Building",
+      "Social Media Strategy",
+      "Content Marketing",
+      "Google Ads",
+      "Facebook & Instagram Ads",
+      "Analytics & Reporting"
+    ]
   },
   {
     "id": 4,
@@ -41,7 +77,19 @@
     "level": "Beginner",
     "description": "Build a strong foundation in Python programming and problem solving.",
     "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4",
-    "category": "Programming"
+    "category": "Programming",
+    "curriculum": [
+      "Python Setup",
+      "Variables & Data Types",
+      "Conditionals & Loops",
+      "Functions",
+      "List Comprehensions",
+      "Modules & Packages",
+      "File Handling",
+      "Error Handling",
+      "OOP Basics",
+      "Problem Solving"
+    ]
   },
   {
     "id": 5,
@@ -52,7 +100,19 @@
     "level": "Advanced",
     "description": "Analyze data, create visualizations, and build machine learning models.",
     "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
-    "category": "Data Science"
+    "category": "Data Science",
+    "curriculum": [
+      "NumPy",
+      "Pandas",
+      "Data Cleaning",
+      "Matplotlib",
+      "Seaborn",
+      "Descriptive Statistics",
+      "Hypothesis Testing",
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Model Evaluation"
+    ]
   },
   {
     "id": 6,
@@ -63,7 +123,19 @@
     "level": "Intermediate",
     "description": "Create cross-platform mobile apps using Flutter and Dart.",
     "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c",
-    "category": "Development"
+    "category": "Development",
+    "curriculum": [
+      "Dart Basics",
+      "OOP in Dart",
+      "Flutter Setup",
+      "Widgets",
+      "Layouts",
+      "Navigation",
+      "State Management",
+      "API Integration",
+      "Firebase",
+      "App Deployment"
+    ]
   },
   {
     "id": 7,
@@ -74,7 +146,19 @@
     "level": "Beginner",
     "description": "Learn color theory, typography, and branding design principles.",
     "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5",
-    "category": "Design"
+    "category": "Design",
+    "curriculum": [
+      "Design Principles",
+      "Balance & Alignment",
+      "Color Theory",
+      "Color Palettes",
+      "Typography Basics",
+      "Font Pairing",
+      "Logo Design",
+      "Brand Identity",
+      "Print Design",
+      "Exporting Assets"
+    ]
   },
   {
     "id": 8,
@@ -85,18 +169,42 @@
     "level": "Intermediate",
     "description": "Understand network security, ethical hacking, and cyber threats.",
     "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b",
-    "category": "Security"
+    "category": "Security",
+    "curriculum": [
+      "CIA Triad",
+      "Threat Vectors",
+      "Network Basics",
+      "Firewalls & VPNs",
+      "Ethical Hacking Intro",
+      "Reconnaissance",
+      "Scanning & Enumeration",
+      "OWASP Top 10",
+      "SQL Injection",
+      "Incident Response"
+    ]
   },
   {
     "id": 9,
     "title": "AI & Machine Learning Foundations",
     "instructor": "Sophia Martinez",
     "duration": "28 hours",
-    "rating": 5.0,
+    "rating": 5,
     "level": "Advanced",
     "description": "Explore machine learning algorithms and artificial intelligence concepts.",
     "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995",
-    "category": "Artificial Intelligence"
+    "category": "Artificial Intelligence",
+    "curriculum": [
+      "AI Overview",
+      "AI Ethics",
+      "Linear Algebra for ML",
+      "Probability & Statistics",
+      "Linear Regression",
+      "Decision Trees",
+      "Neural Networks",
+      "CNNs",
+      "Transformers",
+      "Deploying ML Models"
+    ]
   },
   {
     "id": 10,
@@ -107,6 +215,18 @@
     "level": "Beginner",
     "description": "Improve professional communication, presentation, and teamwork skills.",
     "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
-    "category": "Business"
+    "category": "Business",
+    "curriculum": [
+      "Communication Fundamentals",
+      "Active Listening",
+      "Professional Writing",
+      "Email Etiquette",
+      "Report Writing",
+      "Presentation Structure",
+      "Slide Design",
+      "Teamwork & Collaboration",
+      "Conflict Resolution",
+      "Leadership Communication"
+    ]
   }
 ]

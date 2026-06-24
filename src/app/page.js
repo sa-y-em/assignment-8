@@ -1,11 +1,14 @@
+import Header from "@/components/Header";
+import Navbar from "@/components/Navabr";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <div>
       <main>
-        
-       <p>Home page</p>
+        <Header></Header>
+        <Navbar></Navbar>
+        <p>Home page</p>
       </main>
     </div>
   );
