@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Web Development Bootcamp",
+    "instructor": "John Doe",
+    "duration": "20 hours",
+    "rating": 4.9,
+    "level": "Beginner",
+    "description": "Learn HTML, CSS, JavaScript, React, Node.js, and MongoDB from scratch.",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    "category": "Development"
+  },
+  {
+    "id": 2,
+    "title": "UI/UX Design Masterclass",
+    "instructor": "Sarah Wilson",
+    "duration": "15 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Master user interface and user experience design using Figma.",
+    "image": "https://images.unsplash.com/photo-1558655146-9f40138edfeb",
+    "category": "Design"
+  },
+  {
+    "id": 3,
+    "title": "Digital Marketing Pro",
+    "instructor": "Michael Brown",
+    "duration": "18 hours",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "description": "Learn SEO, social media marketing, and paid advertising strategies.",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
+    "category": "Marketing"
+  },
+  {
+    "id": 4,
+    "title": "Python Programming Essentials",
+    "instructor": "Emily Davis",
+    "duration": "22 hours",
+    "rating": 4.9,
+    "level": "Beginner",
+    "description": "Build a strong foundation in Python programming and problem solving.",
+    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4",
+    "category": "Programming"
+  },
+  {
+    "id": 5,
+    "title": "Data Science with Python",
+    "instructor": "David Miller",
+    "duration": "25 hours",
+    "rating": 4.8,
+    "level": "Advanced",
+    "description": "Analyze data, create visualizations, and build machine learning models.",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
+    "category": "Data Science"
+  },
+  {
+    "id": 6,
+    "title": "Mobile App Development with Flutter",
+    "instructor": "Jessica Taylor",
+    "duration": "24 hours",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "description": "Create cross-platform mobile apps using Flutter and Dart.",
+    "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c",
+    "category": "Development"
+  },
+  {
+    "id": 7,
+    "title": "Graphic Design Fundamentals",
+    "instructor": "Robert Johnson",
+    "duration": "12 hours",
+    "rating": 4.6,
+    "level": "Beginner",
+    "description": "Learn color theory, typography, and branding design principles.",
+    "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5",
+    "category": "Design"
+  },
+  {
+    "id": 8,
+    "title": "Cybersecurity Basics",
+    "instructor": "Daniel Clark",
+    "duration": "16 hours",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "description": "Understand network security, ethical hacking, and cyber threats.",
+    "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b",
+    "category": "Security"
+  },
+  {
+    "id": 9,
+    "title": "AI & Machine Learning Foundations",
+    "instructor": "Sophia Martinez",
+    "duration": "28 hours",
+    "rating": 5.0,
+    "level": "Advanced",
+    "description": "Explore machine learning algorithms and artificial intelligence concepts.",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 10,
+    "title": "Business Communication Skills",
+    "instructor": "Olivia Anderson",
+    "duration": "10 hours",
+    "rating": 4.5,
+    "level": "Beginner",
+    "description": "Improve professional communication, presentation, and teamwork skills.",
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+    "category": "Business"
+  }
+]
