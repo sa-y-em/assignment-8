@@ -12,7 +12,7 @@ const Header = () => {
             </div>
             <div className='right-part gap-4 flex items-center'>
                 <Link href="/">Home</Link>
-                <Link href="/">Courses</Link>
+                <Link href="/courses">Courses</Link>
                 <Link href="/">My Profile</Link>
                 <Button variant = "secondary" className="rounded-lg bg-blue-900 text-yellow-200">Login</Button>
                 <Button variant = "primary" className="rounded-lg text-gray-200">Register</Button>
