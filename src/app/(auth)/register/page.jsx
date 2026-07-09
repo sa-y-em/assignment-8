@@ -37,7 +37,7 @@ const router = useRouter();
           
     
         }
-    const [showPassword, SetShowPassword] = useState(true)
+    const [showPassword, SetShowPassword] = useState(false)
     const signInHandler = async () => {
         const data = await authClient.signIn.social({
             provider: "google",

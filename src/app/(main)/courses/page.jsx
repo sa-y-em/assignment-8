@@ -67,10 +67,10 @@ const Coursespage = async() => {
                 <div className="badge badge-outline">
                   <FaStar />{course.rating}
                 </div>
-                 <Link href= "/login"><button className="btn btn-primary btn-sm">
+                 <button className="btn btn-primary btn-sm">
                   View Details
                 </button>
-                 </Link>
+                 
                  
 
               </div>

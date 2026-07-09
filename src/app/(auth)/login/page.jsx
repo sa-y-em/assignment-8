@@ -39,7 +39,7 @@ const Loginpage = () => {
             });
         };
     
-    const [showPassword, SetShowPassword] = useState(true)
+    const [showPassword, SetShowPassword] = useState(false)
     return (
         <div className='flex justify-center items-center my-auto  pt-35 relative'>
             <form onSubmit={handleSubmit(handler)}>
