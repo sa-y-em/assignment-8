@@ -1,14 +1,25 @@
 import Header from "@/components/Header";
 import Navbar from "@/components/Navabr";
 import Image from "next/image";
+import { Suspense } from "react";
+import loadingPage from "./loading";
+import LoadingPage from "./loading";
+import TopCourse from "@/components/TopCourse";
+import NewCourse from "@/components/NewCourse";
+import BeforeBottom from "@/components/BeforeBottom";
 
 export default function Home() {
   return (
     <div>
       <main>
-        <Header></Header>
+        
+           <Header></Header>
         <Navbar></Navbar>
-        <p>Home page</p>
+        <TopCourse></TopCourse> 
+        <NewCourse></NewCourse>  
+        <BeforeBottom></BeforeBottom>
+        
+       
       </main>
     </div>
   );

@@ -17,6 +17,7 @@ const CourseDetailspage = () => {
   );
 
   if (!expect) {
+    
     return <p>Course not found.</p>;
   }
 
