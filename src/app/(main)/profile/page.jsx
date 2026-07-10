@@ -1,7 +1,7 @@
+"use client"
 import { authClient } from '@/lib/auth-client';
 import Image from 'next/image';
 import React from 'react';
-import { FaUserCircle } from 'react-icons/fa';
 
 
 const UserProfileDetails = () => {
@@ -17,7 +17,7 @@ const UserProfileDetails = () => {
             <div className="card bg-base-100 shadow-lg border border-slate-200">
                 <div className="bg-blue-950 text-gray-200 rounded-t-2xl p-8 flex flex-col items-center gap-3">
                     <Image
-                        src={session.user.image || <FaUserCircle />}
+                        src={session.user.image}
                         alt="User Image"
                         width={96}
                         height={96}
