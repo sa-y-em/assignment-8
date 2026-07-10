@@ -88,7 +88,7 @@ const router = useRouter();
 
                         {errors.pass && <p className='text-red-600 font-semibold text-lg mx-auto'>enter pass</p>}
 
-                        <button className="btn btn-neutral mt-4  hover:bg-gray-200 hover:text-black">Register</button>
+                        <button className="btn btn-secondary mt-4  hover:bg-gray-200 hover:text-black">Register</button>
                         <button className="btn btn-info mt-4 hover:bg-blue-200 hover:text-black" onClick ={ ()=> signInHandler()} ><FaGoogle /> Register with Google</button>
 
                         <p className="text-center mt-4 text-lg "> have an account? <a href="/login" className="text-blue-500 hover:underline">Login</a></p>

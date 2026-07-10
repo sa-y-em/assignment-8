@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import Navbar from '@/components/Navabr';
 import TopCourse from '@/components/TopCourse';
@@ -11,6 +12,8 @@ const layout = ({ children }) => {
             {/* <Navbar></Navbar> */}
             {/* <ToastContainer></ToastContainer> */}
             {children}
+
+            {/* <Footer></Footer> */}
              
         </div>
     );

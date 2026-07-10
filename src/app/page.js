@@ -22,6 +22,7 @@ export default function Home() {
         <NewCourse></NewCourse>  
         <BeforeBottom></BeforeBottom>
         
+        
        
       </main>
     </div>

@@ -67,7 +67,7 @@ const Loginpage = () => {
                     
                     {errors.pass && <p className='text-red-600 font-semibold text-lg mx-auto'>enter pass</p>}
 
-                    <button className="btn btn-neutral mt-4 hover:bg-gray-200 hover:text-black">Login</button>
+                    <button className="btn btn-secondary mt-4 hover:bg-gray-200 hover:text-black">Login</button>
                     <button className="btn btn-info mt-4 hover:bg-blue-200 hover:text-black" onClick={()=>signInHandler()}><FaGoogle /> Login with Google</button>
 
                 <p className="text-center mt-4 text-lg">Don't have an account? <a href="/register" className="text-blue-500 hover:underline">Register</a></p>
