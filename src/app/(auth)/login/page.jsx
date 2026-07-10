@@ -24,7 +24,7 @@ const Loginpage = () => {
             callbackURL: "/",
         });
         if(error){
-           toast.error(error.message)
+           toast.error("Email or password is incorrect!")
         }else{
             toast.success("Login successful!")
         }
