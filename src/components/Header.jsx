@@ -5,6 +5,7 @@ import React from 'react';
 import NavLink from './NavLink';
 import { authClient } from "@/lib/auth-client"
 import Image from 'next/image';
+import { FaUserCircle } from 'react-icons/fa';
 
 
 
@@ -33,7 +34,7 @@ const Header = () => {
                         <NavLink href="/courses">Courses</NavLink>
                         <Link href="/profile" className=''>
                             <span className="flex items-center gap-2">
-                                <Image src={session.user.image} alt="User Image" width={40} height={40} className="rounded-full" />
+                                <Image src={session.user.image || <FaUserCircle />} alt="User Image" width={40} height={40} className="rounded-full" />
 
 
 
